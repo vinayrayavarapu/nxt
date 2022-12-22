@@ -1,0 +1,44 @@
+.slide-item-bg-container {
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.slide-item-active-bg-container {
+  background-color: aquamarine;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.slide-item-row-container {
+  display: flex;
+  flex-direction: row;
+}
+.slide-item-number {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.side-item-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.slide-item-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+
+  border-radius: 10px;
+  height: 150px;
+  width: 300px;
+  cursor: pointer;
+}
+.slide-item-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.slide-item-para {
+  font-size: 15px;
+  font-family: 'Roboto';
+}

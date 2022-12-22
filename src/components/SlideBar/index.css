@@ -1,0 +1,21 @@
+.slide-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  height: 100vh;
+  overflow-y: scroll;
+  margin-right: 10px;
+}
+.new-button {
+  background-color: #dbeafe;
+  width: 100px;
+  cursor: pointer;
+}
+.slide-bar-ordered-list-container {
+  list-style-type: decimal;
+}
+.new-plus-icon {
+  width: 30px;
+}

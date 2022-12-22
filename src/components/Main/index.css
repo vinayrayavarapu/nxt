@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+.body-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.body-container-slide-bar {
+  width: 500px;
+  border-width: 1px;
+  border-style: solid;
+}

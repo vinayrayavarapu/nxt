@@ -1,0 +1,36 @@
+.slide-page-main-container {
+  padding: 30px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100vw;
+}
+.slide-page-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  width: 60vw;
+  height: 560px;
+  border-radius: 10px;
+}
+.slide-page-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: violet;
+
+  margin-bottom: 30px;
+  text-align: center;
+}
+.slide-page-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+
+  text-align: center;
+}
+.slide-page-input-heading {
+  margin-bottom: 30px;
+}
